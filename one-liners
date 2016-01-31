@@ -1,2 +1,5 @@
 # This sets the ipython as the default python interpreter
 PYSPARK_PYTHON=`type ipython|cut -d' ' -f3`
+
+# this starts the python spark console
+./spark-1.6.0-bin-hadoop2.6/bin/pyspark
